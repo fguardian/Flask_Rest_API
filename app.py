@@ -8,11 +8,11 @@ import time
 app = Flask(__name__)
 
 # MY SQL CONNECTION
-app.config['MYSQL_HOST']     = config['DataBaseConfig']['MYSQL_HOST']
-app.config['MYSQL_PORT']     =  config['DataBaseConfig']['MYSQL_PORT']
-app.config['MYSQL_USER']     = config['DataBaseConfig']['MYSQL_USER']
-app.config['MYSQL_PASSWORD'] = config['DataBaseConfig']['MYSQL_PASSWORD']
-app.config['MYSQL_DB']       = config['DataBaseConfig']['MYSQL_DB']
+app.config['MYSQL_HOST']      = config['DataBaseConfig']['MYSQL_HOST']
+app.config['MYSQL_PORT']      =  config['DataBaseConfig']['MYSQL_PORT']
+app.config['MYSQL_USER']      = config['DataBaseConfig']['MYSQL_USER']
+app.config['MYSQL_PASSWORD']  = config['DataBaseConfig']['MYSQL_PASSWORD']
+app.config['MYSQL_DB']        = config['DataBaseConfig']['MYSQL_DB']
 MySql = MySQL(app)
 app.secret_key = ''
 

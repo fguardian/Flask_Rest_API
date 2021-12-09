@@ -1,11 +1,11 @@
     
 config = {
     'DataBaseConfig':{
-        'MYSQL_HOST' : '104.238.176.226',
-        'MYSQL_USER' : 'biobot',
-        'MYSQL_PASSWORD' : 'o)dCart34',
-        'MYSQL_DB' : 'biobot',
-        'MYSQL_PORT' :  33061
+        'MYSQL_HOST'        : '104.238.176.226',
+        'MYSQL_USER'        : 'biobot',
+        'MYSQL_PASSWORD'    : 'o)dCart34',
+        'MYSQL_DB'          : 'biobot',
+        'MYSQL_PORT'        :  33061
     }
 }
 
