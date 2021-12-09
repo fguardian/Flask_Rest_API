@@ -3,12 +3,12 @@
 
 #### Paso a Paso:
 * Verifique que tiene todos los modulos de python:
-pip install flask
-pip install Shapely
-pip install flask_mysqldb
- Si no puedes intallar flask_mysqldb ejecute con pip el archivo en la carpeta flask_mysqldb_problems_to_install:
- pip install "mysqlclient-1.4.6-cp38-cp38-win32.whl"
- pip install flask_mysqldb
+- pip install flask
+- pip install Shapely
+- pip install flask_mysqldb
+Si no puedes intallar flask_mysqldb ejecute con pip el archivo en la carpeta flask_mysqldb_problems_to_install:
+- pip install "mysqlclient-1.4.6-cp38-cp38-win32.whl"
+- pip install flask_mysqldb
 
 Una ves instalados todos los mudulos de python:
 - Ejecutar Server y iniciar la APP: Para inicar el Script tendras que ejecutar el Script "app.py" (python app.py)
