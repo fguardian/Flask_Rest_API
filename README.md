@@ -2,7 +2,7 @@
 ### Generación de End point para visualización de cultivos.
 
 #### Paso a Paso:
-* Verifique que tiene todos los modulos de python:
+Verifique que tiene todos los modulos de python:
 - pip install flask
 - pip install Shapely
 - pip install flask_mysqldb
