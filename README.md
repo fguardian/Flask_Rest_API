@@ -16,5 +16,5 @@ Una ves instalados todos los mudulos de python:
 - Ingresar el ID en el formulario y presionamos en el boton "Obtener Informacion de Cultivos"
 
 - Si el User existe dentro de la base de datos se te redireccionara a un end point "*/informacion_cultivos" que te proporcionara un JSON
-  con toda la informacion de los cultivos que existan.
+  con toda la informacion de los cultivos que exista para tu user.
   
